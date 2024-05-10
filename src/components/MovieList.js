@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import movies from '../movies.json'; 
 
 
 const MovieList = ({ searchQuery, filters, movies }) => {

@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import MovieList from './components/MovieList';
+import MovieCard from './components/MovieCard';
+import SearchBar from './components/SearchBar';
+import Filters from './components/Filters';
+import movies from './movies.json'; 
+import './App.css'; 
 
-function App() {
+const App = () => {
+  const [searchQuery, setSearchQuery] = useState('');
+  const [filters, setFilters] = useState({ genre: '', director: '', language: '' });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="app-container">
+        <div className="search-and-filters">
+          <SearchBar setSearchQuery={setSearchQuery} />
+          <Filters setFilters={setFilters} />
+        </div>
+        <Routes>
+          <Route
+            path="/"
+            element={
+            <MovieList
+              searchQuery={searchQuery}
+              filters={filters}
+              movies={movies} // Pass the imported movie data
+            />
+          }
+          />
+          <Route path="/movie/:movieId" element={<MovieCard />} />
+        </Routes>
+      </div>
+    </Router>
   );
-}
+};
 
 export default App;

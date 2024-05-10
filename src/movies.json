@@ -1,0 +1,153 @@
+[
+    {
+      "id": 1,
+      "name": "The Shawshank Redemption",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDE3ODcxYzMtY2YzZC00NmNlLWJiNDMtZDViZWM2MzIxZDYwXkEyXkFqcGdeQXVyNjAwNDUxODI@._V1_.jpg",
+      "genre": "Drama",
+      "description": "Two imprisoned men bond over years, finding solace and eventual redemption through acts of common decency.",
+      "director": "Frank Darabont",
+      "actors": ["Tim Robbins", "Morgan Freeman", "Bob Gunton"],
+      "language": "English"
+    },
+    {
+      "id": 2,
+      "name": "The Godfather",
+      "thumbnail": "https://static0.srcdn.com/wordpress/wp-content/uploads/2023/05/the-godfather-poster.jpeg",
+      "genre": "Drama", 
+      "description": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+      "director": "Francis Ford Coppola",
+      "actors": ["Marlon Brando", "Al Pacino", "James Caan"],
+      "language": "English"
+    },
+    {
+      "id": 3,
+      "name": "The Dark Knight",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMTMxNTMwODM0NF5BMl5BanBnXkFtZTcwODAyMTk2Mw@@._V1_.jpg",
+      "genre": "Action",
+      "description": "When the menace known as The Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests of his ability to fight injustice.",
+      "director": "Christopher Nolan",
+      "actors": ["Christian Bale", "Heath Ledger", "Aaron Eckhart"],
+      "language": "English"
+    },
+    {
+      "id": 4,
+      "name": "Pulp Fiction",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNGNhMDIzZTUtNTBlZi00MTRlLWFjM2ItYzViMjE3YzI5MjljXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "genre": "Drama", 
+      "description": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "director": "Quentin Tarantino",
+      "actors": ["John Travolta", "Uma Thurman", "Samuel L. Jackson"],
+      "language": "English"
+    },
+    {
+      "id": 5,
+      "name": "The Lord of the Rings: The Return of the King",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNDgwY2YyNjctZTMxZC00ZTRlLThhN2QtMTAwYjUyODcyZDYxXkEyXkFqcGdeQXVyMTA0MTM5NjI2._V1_FMjpg_UX1000_.jpg",
+      "genre": "Adventure", 
+      "description": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+      "director": "Peter Jackson",
+      "actors": ["Elijah Wood", "Viggo Mortensen", "Ian McKellen"],
+      "language": "English"
+    },
+    {
+      "id": 6,
+      "name": "The Matrix",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNzQzOTk3OTAtNDQ0Zi00ZTVkLWI0MTEtMDllZjNkYzNjNTc4L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "genre": "Sci-Fi",  
+      "description": "A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers.",
+      "director": "Lana Wachowski",
+      "actors": ["Keanu Reeves", "Laurence Fishburne", "Carrie-Anne Moss"],
+      "language": "English"
+    },
+    {
+      "id": 7,
+      "name": "Inception",
+      "thumbnail": "https://m.media-amazon.com/images/S/pv-target-images/e826ebbcc692b4d19059d24125cf23699067ab621c979612fd0ca11ab42a65cb._SX1080_FMjpg_.jpg",
+      "genre": "Action",
+      "description": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+      "director": "Christopher Nolan",
+      "actors": ["Leonardo DiCaprio", "Joseph Gordon-Levitt", "Ellen Page"],
+      "language": "English"
+    },
+    {
+      "id": 8,
+      "name": "The Godfather Part II",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMWMwMGQzZTItY2JlNC00OWZiLWIyMDctNDk2ZDQ2YjRjMWQ0XkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_.jpg",
+      "genre": "Drama",
+      "description": "The early life and career of Vito Corleone in 1920s New York is portrayed, while his son, Michael, expands and tightens his grip on his crime syndicate.",
+      "director": "Francis Ford Coppola",
+      "actors": ["Al Pacino", "Robert De Niro", "Robert Duvall"],
+      "language": "English"
+    },
+    {
+      "id": 9,
+      "name": "Gladiator",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BMDliMmNhNDEtODUyOS00MjNlLTgxODEtN2U3NzIxMGVkZTA1L2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "genre": "Action",
+      "description": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+      "director": "Ridley Scott",
+      "actors": ["Russell Crowe", "Joaquin Phoenix", "Connie Nielsen"],
+      "language": "English"
+    },
+    {
+      "id": 10,
+      "name": "Forrest Gump",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNWIwODRlZTUtY2U3ZS00Yzg1LWJhNzYtMmZiYmEyNmU1NjMzXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_.jpg",
+      "genre": "Drama",
+      "description": "The presidencies of Kennedy and Johnson, the events of Vietnam, Watergate, and other historical events unfold from the perspective of an Alabama man with an IQ of 75, whose only desire is to be reunited with his childhood sweetheart.",
+      "director": "Robert Zemeckis",
+      "actors": ["Tom Hanks", "Robin Wright", "Gary Sinise"],
+      "language": "English"
+    },
+    {
+      "id": 11,
+      "name": "The Lion King",
+      "thumbnail": "https://m.media-amazon.com/images/I/A1HdhV-tluL._AC_UF1000,1000_QL80_.jpg",
+      "genre": "Comedy",  
+      "description": "Lion cub and future king Simba searches for his identity. His eagerness to please others and penchant for testing his boundaries sometimes gets him into trouble.",
+      "director": "Roger Allers",
+      "actors": ["Matthew Broderick", "Jeremy Irons", "James Earl Jones"],
+      "language": "English"
+    },
+    {
+      "id": 12,
+      "name": "Saving Private Ryan",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BZjhkMDM4MWItZTVjOC00ZDRhLThmYTAtM2I5NzBmNmNlMzI1XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_.jpg",
+      "genre": "Action",  
+      "description": "Following the Normandy Landings, a group of U.S. soldiers go behind enemy lines to retrieve a paratrooper whose brothers have been killed in action.",
+      "director": "Steven Spielberg",
+      "actors": ["Tom Hanks", "Matt Damon", "Tom Sizemore"],
+      "language": "Spanish"
+    },
+    {
+      "id": 13,
+      "name": "Jurassic Park",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDbgkcDp94R1Tg7NoM0RxPsgcCxPi0SNf6NWGtjdp57w&s",
+      "genre": "Action",  
+      "description": "During a preview tour, a theme park suffers a major power breakdown that allows its cloned dinosaur exhibits to run amok.",
+      "director": "Steven Spielberg",
+      "actors": ["Sam Neill", "Laura Dern", "Jeff Goldblum"],
+      "language": "French"
+    },
+    {
+      "id": 14,
+      "name": "Braveheart",
+      "thumbnail": "https://upload.wikimedia.org/wikipedia/en/thumb/5/55/Braveheart_imp.jpg/220px-Braveheart_imp.jpg",
+      "genre": "Action",
+      "description": "Scottish warrior William Wallace leads his countrymen in a rebellion to free his homeland from the tyrannical rule of King Edward I of England.",
+      "director": "Mel Gibson",
+      "actors": ["Mel Gibson", "Sophie Marceau", "Patrick McGoohan"],
+      "language": "French"
+    },
+    {
+      "id": 15,
+      "name": "The Silence of the Lambs",
+      "thumbnail": "https://m.media-amazon.com/images/M/MV5BNjNhZTk0ZmEtNjJhMi00YzFlLWE1MmEtYzM1M2ZmMGMwMTU4XkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_.jpg",
+      "genre": "Horror",
+      "description": "A young F.B.I. cadet must confide in an incarcerated and manipulative cannibal killer to receive his help on catching another serial killer who skins his victims.",
+      "director": "Jonathan Demme",
+      "actors": ["Jodie Foster", "Anthony Hopkins", "Lawrence A. Bonney"],
+      "language": "Spanish"
+    }
+  ]
+  

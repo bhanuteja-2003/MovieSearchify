@@ -30,20 +30,26 @@ const MovieCard = () => {
 
   return (
     <div className="movie-details-container">
+      <div classNmae="movie-left" >
       <h2>{movie.name}</h2>
       <img src={movie.thumbnail} alt={movie.name} className="movie-detail-thumbnail" />
+      </div>
+      <div className='movie-right'  >
       <p>{movie.description}</p>
       <p><strong>Director:</strong> {movie.director}</p>
       <p><strong>Actors:</strong> {movie.actors.join(', ')}</p>
 
-
+      <div>
       {/* Borrow Button */}
       <button onClick={handleBorrow} className="borrow-button">Borrow</button>
 
       {/* Display Error Message if Borrow Fails */}
       {borrowError && <p className="error-message">{borrowError}</p>}
 
-      <Link to="/" className="back-link">Go Back to Home Page</Link>
+      <Link to="/" className="back-link">Go Back</Link>
+      </div>
+      </div>
+      
     </div>
   );
 };

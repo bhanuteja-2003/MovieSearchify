@@ -35,6 +35,7 @@
 .movie-list {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -95,6 +96,16 @@
   background-color: #333333;
   padding: 20px;
   border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.movie-details-container .movie-right{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top:60px;
 }
 
 .movie-detail-thumbnail {
@@ -104,7 +115,7 @@
 }
 
 .borrow-button {
-  background-color: #007bff;
+  background-color: #d7b50b;
   color: white;
   padding: 10px 15px;
   border: none;
@@ -113,7 +124,7 @@
 }
 
 .borrow-button:hover {
-  background-color: #0056b3;
+  background-color: #826906;
 }
 
 .error-message {
@@ -123,17 +134,18 @@
 }
 
 .back-link {
+  margin: 20px;
   text-decoration: none;
-  color: #007bff;
+  color: #c2430c;
 }
 
 .back-link:hover {
-  color: #0056b3;
+  color: #bb4108;
 }
 
 .navbar{
   height: 70px;
-  width: 100vw;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const MovieList = ({ searchQuery, filters, movies }) => {
   const [currentPage, setCurrentPage] = useState(1);
-  const [moviesPerPage] = useState(5);
+  const [moviesPerPage] = useState(12);
 
   // Filtering movies based on search and filters
   const filteredMovies = movies.filter((movie) => {
